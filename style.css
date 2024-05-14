@@ -1,0 +1,170 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 22;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #ffffff4d;
+            height: 100%;
+            width: 0px;
+            margin-top: 0px;
+            margin-block-end: 0px;
+            border: 0px solid #3333338a;
+            display: block; /* Usado para alinhar itens verticalmente */
+            flex-direction: column; /* Alinha os itens em coluna */
+            justify-content: center; /* Move o texto para o final da div */
+            align-items: start; /* Centraliza horizontalmente o texto */
+            
+            padding: 100px 0px;
+            display: flex;
+            width: 100%;
+        }
+        
+        nav a {
+            text-decoration: black;
+            padding: 25px 25px;
+            margin: 44px;
+            border-radius: 15px;
+            background-color: #fff;
+            display: flex;
+            justify-content:left;
+            align-items: end;
+            margin-top: 1px;
+            transition: background-color 0.98s, border 1.55s;
+        }
+
+        .nav-com-imagem p {
+            color: white;
+            margin: 22px;
+        }
+
+        .nav-com-imagem {
+            background-image: url('/fundo-roxo.jpg');
+            background-size: cover; /* Para cobrir todo o espaço da navegação */
+            background-position: center; /* Para centralizar a imagem */
+            position: relative; /* Para permitir que os elementos dentro da navegação fiquem em cima da imagem de fundo */
+            opacity: 1;
+        }
+
+        .nav-com-imagem h1 {
+            color: white;
+            padding: 22px 44%;
+            display: inline;
+        }
+        
+        /* Estilo dos ícones */
+        nav a i {
+            align-items: center;
+            display: flex;
+            justify-content:left ;
+            padding: 1px 1px;
+
+        }
+        nav a:hover {
+            background-color: #52525250;
+            color: #fff;
+            transition: background-color 0.76s, border 1.1s;
+        }
+        .whatsapp-link:hover {
+            background-color: #25d36548;
+            border: 1px solid #03f817f6;
+        }
+        
+        .whatsapp-link:hover .whatsapp-icon {
+            color: #25D366;
+        }
+        
+        .facebook-link:hover {
+            background-color: #1173eb05; /* Cor de fundo ao passar o mouse */
+            border: 1px solid #1173eb;
+            
+        }
+        
+        .facebook-link:hover .facebook-icon {
+            color: #3b5998; /* Cor do ícone ao passar o mouse */
+        }
+        
+        .instagram-link:hover {
+            background-color: #eb119013; /* Cor de fundo ao passar o mouse */
+            border: 1px solid #eb1190;
+        }
+        
+        .instagram-link:hover .instagram-icon {
+            color: #ff00b3; /* Cor do ícone ao passar o mouse */
+        }
+
+        .linkedin-link:hover {
+            background-color: #116feb18; /* Cor de fundo ao passar o mouse */
+            border: 1px solid #116feb;
+            
+        }
+        
+        .linkedin-link:hover .linkedin-icon {
+            color: #0077b5; /* Cor do ícone ao passar o mouse */
+        }
+        
+        .icon {
+            margin-right: 0px;
+            cursor: pointer;
+            font-size: 44px; 
+            text-align: left;
+            justify-content: left; /* Move o texto para o final da div */
+            align-items: left; /* Centraliza horizontalmente o texto */
+        }
+        
+        .facebook-icon {
+            color: #3b5998;
+            
+        }
+        .instagram-icon {
+            color: #e4405f;
+        }
+        .linkedin-icon {
+            color: #008dda;
+        }
+        .whatsapp-icon {
+            color: #25D366;
+        }
+
+        .div-no-final {
+            position: relative;
+            background-color: #333;
+            width: 100%;
+            height: 100px; /* Altura da div, ajuste conforme necessário */
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .div-no-final p {
+            position: absolute;
+            color: white;
+            bottom: 0;
+            transform: translate(-50%, 0); /* Para centralizar horizontalmente */
+            left: 50%;
+            margin: 0;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px; 
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: transparent; 
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.959); 
+            border-radius:1px; 
+        }
+
+        body {
+            scrollbar-color: #ffffff4d transparent; /* Cor do botão de rolagem e fundo da área de rolagem transparente */
+            scrollbar-width: thin; /* Largura da barra de rolagem */
+        }
