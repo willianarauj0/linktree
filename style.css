@@ -55,8 +55,10 @@
 
         .nav-com-imagem h1 {
             color: white;
-            padding: 22px 44%;
+            padding: 28px 28px;
             display: inline;
+            font: 100;
+            font-size: x-large;
         }
         
         /* Estilo dos ícones */
@@ -148,7 +150,7 @@
             bottom: 0;
             transform: translate(-50%, 0); /* Para centralizar horizontalmente */
             left: 50%;
-            margin: 0;
+            margin: 22px;
         }
 
         ::-webkit-scrollbar {
